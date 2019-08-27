@@ -15,9 +15,20 @@
     &:hover {
       background-color: white;
       color: black;
-      border: 1px solid black;
+    }
+
+    &.google-sign-in {
+      background-color: rgb(21, 104, 182);
+      float: right;
+
+      &:hover {
+        background-color: rgb(51, 141, 226);
+        color: #fff;
+      }
     }
   }
+
+
 
 button {
     font-family: inherit;

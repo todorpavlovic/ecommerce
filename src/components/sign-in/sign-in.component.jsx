@@ -21,8 +21,6 @@ class SignIn extends Component {
         this.setState({[name] : value});
     }
 
-    //auth
-
     render() {
         return (
             <div className="sign-in">
@@ -47,7 +45,7 @@ class SignIn extends Component {
                     <CustomButton type="submit">
                         Sign up
                     </CustomButton>
-                    <CustomButton onClick={signInWithGoogle}>
+                    <CustomButton onClick={signInWithGoogle} isGoogleSignIn>
                         Sign in with Google 
                     </CustomButton>
                 </form>
