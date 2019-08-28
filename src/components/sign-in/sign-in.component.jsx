@@ -21,7 +21,7 @@ class SignIn extends Component {
             this.setState({email: '', password: ''})
 
         }catch {
-            alert('RETARDE')
+            alert('Error!')
         }
 
     }
