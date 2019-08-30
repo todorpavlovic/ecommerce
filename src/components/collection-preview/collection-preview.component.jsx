@@ -4,6 +4,7 @@ import CollectionItem from '../collection-item/collection-item.component';
 
 import './collection-preview.styles.scss';
 
+
 const CollectionPreview = ({title, items}) => {
 
     return (
@@ -17,5 +18,6 @@ const CollectionPreview = ({title, items}) => {
         </div>
     )
 }
+
 
 export default CollectionPreview;

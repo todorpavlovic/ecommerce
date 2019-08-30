@@ -1,5 +1,5 @@
-export const ShopData = [
-  {
+export const ShopData =[ 
+ {
     id: 1,
     title: 'Hats',
     routeName: 'hats',
@@ -60,7 +60,7 @@ export const ShopData = [
       }
     ]
   },
-  {
+ {
     id: 2,
     title: 'Sneakers',
     routeName: 'sneakers',
@@ -152,7 +152,7 @@ export const ShopData = [
       }
     ]
   },
-  {
+ {
     id: 4,
     title: 'Womens',
     routeName: 'womens',
@@ -201,7 +201,7 @@ export const ShopData = [
       }
     ]
   },
-  {
+ {
     id: 5,
     title: 'Mens',
     routeName: 'mens',
